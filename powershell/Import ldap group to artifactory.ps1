@@ -1,7 +1,7 @@
 ﻿#Import LDAP group to Artifactory
 
 $apiKey = 'SDASDADASDASADASDASDASDASDASDASDASDASDASDASDASDASDASDASD'
-$site = 'https://artifactory.myartifactory.ru'
+$site = 'https://artifactory.myartifactory.com'
 
 $groupName = 'artifactory-nuget-group' #group name (in lower case)
 $group = Get-ADGroup $groupName -Properties DistinguishedName,Description
